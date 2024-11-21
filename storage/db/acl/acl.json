@@ -1,0 +1,63 @@
+{
+    "roles": {
+        "admin": {
+            "access_control": {
+                "create": true,
+                "delete": true,
+                "read": true,
+                "update": true
+            },
+            "indexes": {
+                "create": true,
+                "delete": true,
+                "read": true,
+                "update": true
+            },
+            "objects": {
+                "create": true,
+                "delete": true,
+                "read": true,
+                "update": true
+            }
+        },
+        "user": {
+            "access_control": {
+                "create": false,
+                "delete": false,
+                "read": false,
+                "update": false
+            },
+            "indexes": {
+                "create": true,
+                "delete": true,
+                "read": true,
+                "update": true
+            },
+            "objects": {
+                "create": true,
+                "delete": true,
+                "read": true,
+                "update": true
+            }
+        }
+    },
+    "users": {
+        "admin": {
+            "email": "",
+            "opaque_password": "d82494f05d6917ba02f7aaa29689ccb444bb73f20380876cb05d1f37537b7892",
+            "roles": [
+                "admin"
+            ],
+            "username": "admin"
+        },
+        "langgraph": {
+            "email": "langgraph@localhost",
+            "opaque_password": "ae53e66c6ee953ff5368f1559a715d55be35ce87780a4b51e47677351083d689",
+            "roles": [
+                "user"
+            ],
+            "username": "langgraph"
+        }
+    },
+    "version": 3
+}

@@ -1,0 +1,8 @@
+name,system_id,user_ids,group_ids
+sysadmins,1,"10,12",
+billing,2,"1,6",
+front_desk,3,6,
+phone_users,4,8,"2,3"
+devs,5,"10,4,5",1
+qa,6,"2,3"
+github,7,8,"5,6"

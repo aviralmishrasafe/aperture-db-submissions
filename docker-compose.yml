@@ -1,0 +1,28 @@
+services:
+  aperturedb:
+    image: aperturedb-with-loading
+    environment:
+      ADB_KVGD_DB_SIZE: "204800"
+      ADB_LOG_PATH: "logs"
+      ADB_PORT: 55553
+      ADB_MAX_SIMULTANEOUS_CLIENTS: 1028
+      ADB_FORCE_SSL: false
+      DB_HOST: "localhost"
+      # $$ is escape for $
+      ADB_USERS: "langgraph	glue@GRAPH4491"
+    volumes:
+      - ./storage/db/objects:/aperturedb/db/objects
+      - ./storage/db/binlogs:/aperturedb/db/graph/binlogs
+      - ./storage/db/acl:/aperturedb/db/acl
+      - ./storage/db/logs:/aperturedb/logs
+  client:
+    image: langsafe-client
+    ports:
+      - 8888:8888
+    environment:
+      ADB_HOST: "aperturedb"
+      ADB_PORT: 55553
+      ADB_USER: "langgraph"
+      ADB_PASS: "glue@GRAPH4491"
+    volumes:
+      - ./data:/data

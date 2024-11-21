@@ -1,0 +1,3 @@
+name,user_perms,group_perms,comment
+github_secrets,rwx_9,rw_7,simple compound user 9 add to github group.
+qa_procedure,rwx_2,r_6,qa can read - jane in qa owns.

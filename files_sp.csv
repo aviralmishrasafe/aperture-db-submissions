@@ -1,0 +1,15 @@
+file_name,file_path,user_ids
+Home.aspx,s3://aperturedb-bucket/sharepoint/sites/Jane-space/SitePages/Home.aspx,4960704109513335637
+CollabHome.aspx,s3://aperturedb-bucket/sharepoint/sites/Jane-space/SitePages/CollabHome.aspx,4960704109513335637
+Nvidia News.docx,s3://aperturedb-bucket/sharepoint/sites/Jane-space/Shared Documents/Nvidia News.docx,4960704109513335637
+Test.docx,s3://aperturedb-bucket/sharepoint/sites/Testsite/Shared Documents/Test.docx,"4960704109513335637,966166968920624393,8706268411558169449,3553891557086895906"
+Home.aspx,s3://aperturedb-bucket/sharepoint/sites/allcompany/SitePages/Home.aspx,966166968920624393
+Event-recap-template_130FFD24-1B8B-4742-B70D-3926FE0FF1CE.aspx,s3://aperturedb-bucket/sharepoint/sites/Testsite/SitePages/Templates/Event-recap-template_130FFD24-1B8B-4742-B70D-3926FE0FF1CE.aspx,966166968920624393
+Previous-event.aspx,s3://aperturedb-bucket/sharepoint/sites/Testsite/SitePages/Previous-event.aspx,966166968920624393
+One-Contoso.aspx,s3://aperturedb-bucket/sharepoint/sites/Testsite/SitePages/One-Contoso.aspx,966166968920624393
+FileB.docx,s3://aperturedb-bucket/sharepoint/sites/testing-doc-library-columns/Shared Documents/FileB.docx,"966166968920624393,8706268411558169449"
+config.json,s3://aperturedb-bucket/sharepoint/sites/Testsite/Shared Documents/config.json,966166968920624393
+FileA.docx,s3://aperturedb-bucket/sharepoint/sites/testing-doc-library-columns/Shared Documents/FileA.docx,"966166968920624393,8706268411558169449,3553891557086895906"
+CollabHome.aspx,s3://aperturedb-bucket/sharepoint/sites/testing-doc-library-columns/SitePages/CollabHome.aspx,"966166968920624393,8706268411558169449"
+EventPlanHome.aspx,s3://aperturedb-bucket/sharepoint/sites/Testsite/SitePages/EventPlanHome.aspx,966166968920624393
+Status-report-template_C604EE75-AE8A-4ED1-95AA-7964700FF1CE.aspx,s3://aperturedb-bucket/sharepoint/sites/Testsite/SitePages/Templates/Status-report-template_C604EE75-AE8A-4ED1-95AA-7964700FF1CE.aspx,966166968920624393
